@@ -1,0 +1,69 @@
+.main__container {
+  height: 800px;
+  width: 1300px;
+  border: 2px solid black;
+  margin-left: 270px;
+  margin-top: 30px;
+  background-image: url("../../images/kitki.jpg");
+  background-size: contain;
+}
+
+.header {
+  height: 100px;
+  width: 1300px;
+  display: flex;
+  background-color: white;
+  border-bottom: 1px sandybrown solid;
+}
+
+.logo {
+  height: 100px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__bar {
+  height: 100px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav__item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: sandybrown;
+  font-size: 22px;
+}
+
+
+.welcome__msg {
+  height: 175px;
+  width: 450px;
+  border: 2px solid sandybrown;
+  margin-top: 100px;
+  margin-left: 425px;
+  border-radius: 5%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.Cat,
+.Culator {
+  font-family: "Barriecito", sans-serif;
+  font-size: 56px;
+}
+
+.Cat {
+  color: sandybrown;
+}
+
+.Culator {
+  color: darkorchid;
+}
