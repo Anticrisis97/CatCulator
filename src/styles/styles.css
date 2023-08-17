@@ -3,7 +3,21 @@
 }
 
 body {
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+}
+
+.container {
+    width: 100%;
+    height: 800px;
+    border: 2px black solid;
+    background-image: url("../images/kitki.jpg");
+    background-size: contain;
+    border-top: 1px sandybrown solid;
+    text-align: center;
 }
 
 .nav {
@@ -12,9 +26,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 38rem;
     padding: 0 1rem;
+    border-top: 2px black solid;
     border-bottom: 1px sandybrown solid;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
 }
 
 .site-title-cat{
@@ -27,7 +44,7 @@ body {
     margin: 0;
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 3.5rem;
 }
 
 .nav a {
@@ -37,7 +54,7 @@ body {
 
 .nav li a {
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .nav li:hover {
