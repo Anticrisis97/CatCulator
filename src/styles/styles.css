@@ -64,3 +64,29 @@ body {
 .nav li.active {
     background-color: brown;
 }
+
+.welcome-msg-title{
+    margin-top: 70px;
+    font-family: "Raleway", sans-serif;
+}
+
+.welcome-msg-container {
+width: 500px;
+margin: auto; /* To wyśrodkuje w poziomie */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+    border: 1px sandybrown solid;
+    border-radius: 5%;
+}
+.welcome-msg-container p{
+    font-family: "Roboto", sans-serif;
+}
+
+.bold {
+    font-family: "Barriecito", sans-serif;
+    color: sandybrown;
+    font-weight: 700;
+}
