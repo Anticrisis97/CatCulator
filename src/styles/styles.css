@@ -111,3 +111,26 @@ h1{
 .slider-container {
     width: 1235px;
 }
+
+.option {
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.numeric-input{
+    margin-top: 20px;
+}
+
+h2{
+    font-family: "Barriecito", sans-serif;
+    color: sandybrown;
+}
+
+.warning {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    border-top: 2.5px solid darkred;
+    border-bottom: 2.5px solid darkred;
+    display: inline-block;
+}
