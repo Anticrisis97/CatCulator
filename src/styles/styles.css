@@ -118,6 +118,18 @@ h1{
     font-size: 14px;
 }
 
+button {
+    margin-left: 2px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 30%;
+    background: sandybrown;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+}
+
 .numeric-input{
     margin-top: 20px;
 }
@@ -133,4 +145,10 @@ h2{
     border-top: 2.5px solid darkred;
     border-bottom: 2.5px solid darkred;
     display: inline-block;
+}
+
+.qualityResult{
+    margin-top: 10px;
+    font-family: "Barriecito", sans-serif;
+    font-size: 40px;
 }
