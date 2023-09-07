@@ -13,8 +13,8 @@ function App() {
                 <div className="container">
                     <Routes>
                         <Route path="/"  element={<Home />} />
-                        <Route path="/database" element={<Database />} />
-                        <Route path="/catculate" element={<Catculate />} />
+                        <Route path="/Database" element={<Database />} />
+                        <Route path="/Catculate" element={<Catculate />} />
                     </Routes>
                 </div>
             </div>

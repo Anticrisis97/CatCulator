@@ -69,8 +69,7 @@ const SliderContainer = () => {
     ];
 
     localStorage.setItem('karmy', JSON.stringify(karmy));
-{
-}
+
 
 export default function Database() {
     return (
