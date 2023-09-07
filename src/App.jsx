@@ -1,6 +1,5 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-
 import Home from './pages/Home.jsx';
 import Database from './pages/Database.jsx';
 import Catculate from './pages/Catculate.jsx';
@@ -13,9 +12,9 @@ function App() {
                 <Navbar />
                 <div className="container">
                     <Routes>
-                        <Route path="/" exact component={Home} />
-                        <Route path="/database" component={Database} />
-                        <Route path="/catculate" component={Catculate} />
+                        <Route path="/"  element={<Home />} />
+                        <Route path="/database" element={<Database />} />
+                        <Route path="/catculate" element={<Catculate />} />
                     </Routes>
                 </div>
             </div>
