@@ -1,12 +1,14 @@
+import {Link} from "react-router-dom";
+
 export default function Navbar() {
     return <nav className="nav">
         <a href="/" className="site-title-cat">CatCulator</a>
         <ul>
             <li>
-                <a href="/database">Database</a>
+                <Link to="/Database">Database</Link>
             </li>
             <li>
-                <a href="/catculate">Catculate!</a>
+                <Link to="/Catculate">Catculate!</Link>
             </li>
         </ul>
     </nav>
